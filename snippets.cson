@@ -1,0 +1,14 @@
+'.source.rspec':
+  'FactoryGirl.create':
+    'prefix': 'fc'
+    'body': 'FactoryGirl.create(:$1)'
+  'before':
+    'prefix': 'be'
+    'body': 'before { $1 }'
+  'it':
+    'prefix': 'i'
+    'body': 'it { $1 }'
+'.source.gfm':
+  'Ruby out':
+    'prefix': '='
+    'body': '<%= $1 %>'
